@@ -8,11 +8,16 @@
 .header {
     background-color: #1f2937;
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero_section {
     background-color: #1f2937;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .italic {
@@ -27,9 +32,39 @@
 footer {
     background-color: #1f2937;
     color: white;
+    text-align: center;
 }
 
 button {
     background-color: #3882f6;
     color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.service {
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+}
+
+.simage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.italic {
+    text-align: center;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: space-between;
 }
